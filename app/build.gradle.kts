@@ -66,6 +66,8 @@ dependencies {
     // Kotlin serialization
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
 
+    //Procesar imágenes
+    implementation("io.coil-kt:coil-compose:2.6.0")
 
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
