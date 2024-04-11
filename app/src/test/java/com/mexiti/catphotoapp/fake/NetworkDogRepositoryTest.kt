@@ -16,8 +16,5 @@ class NetworkDogPhotRepositoryTest {
             val expectedPhotos = FakeDataSource.photoList + FakeDataSource.photoList
             assertEquals(expectedPhotos, photos)
         }
-
-
     }
-
 }

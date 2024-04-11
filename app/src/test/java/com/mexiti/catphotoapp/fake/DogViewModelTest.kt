@@ -1,7 +1,5 @@
-package mx.unam.fi.randomphotoapp.fake
+package com.mexiti.catphotoapp.fake
 
-import com.mexiti.catphotoapp.fake.FakeDataSource
-import com.mexiti.catphotoapp.fake.FakeNetworkDogPhotoRepository
 import com.mexiti.catphotoapp.viewmodel.DogUiState
 import com.mexiti.catphotoapp.viewmodel.DogViewModel
 import kotlinx.coroutines.test.runTest
@@ -10,7 +8,7 @@ import org.junit.Rule
 import org.junit.Test
 import mx.unam.fi.randomphotoapp.rules.TestDispatcherRule
 
-class ImgViewModelTest {
+class DogViewModelTest {
     @get:Rule
     val testDispatcher = TestDispatcherRule()
     @Test
