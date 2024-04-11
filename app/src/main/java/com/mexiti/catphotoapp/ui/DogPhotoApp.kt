@@ -37,7 +37,7 @@ fun DogApp(){
     ) {
         Surface(
             modifier = Modifier.fillMaxSize()) {
-            val dogViewModel:DogViewModel = viewModel()
+            val dogViewModel:DogViewModel = viewModel(factory = DogViewModel.Factory)
             HomeScreen(dogUiState = dogViewModel.dogUiState, contentPadding = it)
         }
 
